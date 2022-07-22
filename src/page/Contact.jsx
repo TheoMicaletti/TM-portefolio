@@ -40,7 +40,7 @@ function Contact() {
       <div className="text-center mt-40 text-2xl">
         <p className="mb-4">Click on the email send a message to me !</p>
         <a
-          className="flex justify-center font-[600] text-5xl hover:text-yellow"
+          className="flex sm:text-4xl justify-center font-[600] text-xl hover:text-yellow"
           href="mailto:theo.micaletti@icloud.com"
         >
           {email.map((first) => (
