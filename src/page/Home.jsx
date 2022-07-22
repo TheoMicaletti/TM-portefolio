@@ -29,7 +29,7 @@ function Home() {
             <div className="text-3xl font-[400] mb-4">
               <p>Hello, my name is</p>
             </div>
-            <div className="text-yellow xl:text-9xl text-8xl font-[800]">
+            <div className="text-yellow xl:text-9xl sm:text-8xl text-7xl font-[800]">
               <div className="flex drop-shadow-[-5px_-5px_0px_rgba(0,0,0)]">
                 {firstName.map((first) => (
                   <div className="flex-row hover:font-[800] hover:animate-waving-hand hover:text-pink">

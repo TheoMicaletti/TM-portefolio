@@ -12,7 +12,7 @@ function Navbar() {
             <li className="cursor-pointer px-12 mt-1.5 hover:text-[#ffffff]">
               <img
                 className="drop-shadow-[-1px_-1px_0px_rgba(150,150,150)] sm:hidden block w-8"
-                src={Linkedin}
+                src={Github}
                 alt="linkedin"
               />
               <span className="hidden sm:block">GitHub</span>
@@ -22,7 +22,7 @@ function Navbar() {
             <li className="cursor-pointer px-12 mt-1.5 hover:text-[#ffffff]">
               <img
                 className="drop-shadow-[-1px_-1px_0px_rgba(150,150,150)] sm:hidden block w-8"
-                src={Github}
+                src={Linkedin}
                 alt="github"
               />
               <span className="hidden sm:block">LinkedIn</span>
