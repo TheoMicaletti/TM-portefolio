@@ -32,14 +32,14 @@ function Home() {
             <div className="text-yellow xl:text-9xl text-8xl font-[800]">
               <div className="flex drop-shadow-[-5px_-5px_0px_rgba(0,0,0)]">
                 {firstName.map((first) => (
-                  <div className="flex-row hover:font-[800] hover:animate-waving-hand">
+                  <div className="flex-row hover:font-[800] hover:animate-waving-hand hover:text-pink">
                     {first.letter}
                   </div>
                 ))}
               </div>
               <div className="flex text-pink drop-shadow-[-5px_-5px_0px_rgba(0,0,0)]">
                 {lastName.map((last) => (
-                  <div className="flex-row hover:font-[800] hover:animate-waving-hand">
+                  <div className="flex-row hover:font-[800] hover:animate-waving-hand hover:text-yellow">
                     {last.letter}
                   </div>
                 ))}
