@@ -15,7 +15,7 @@ function Art() {
       <h2 className="text-3xl font-[400] lg:mb-16 mb-8 mt-8 text-center">
         My{" "}
         <span className="drop-shadow-[-2px_-2px_0px_rgba(237,180,196)] text-yellow font-[800]">
-          arts
+          art
         </span>{" "}
         projects
       </h2>
