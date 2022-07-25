@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 
 let email = [
   { id: 1, letter: "t" },
@@ -32,11 +31,6 @@ let email = [
 function Contact() {
   return (
     <>
-      <Link to="/">
-        <div className="drop-shadow-[-4px_-4px_0px_rgba(160,160,160)] bg-pink w-fit mx-auto p-4 border-4 border-silver hover:border-[#ffffff] cursor-pointer">
-          Back to home page
-        </div>
-      </Link>
       <div className="text-center mt-40 text-2xl">
         <p className="mb-4">Click on the email send a message to me !</p>
         <a
