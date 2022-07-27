@@ -3,11 +3,11 @@ import "./Art.css";
 
 import JerseyOM from "../assets/art/OMJersey.jpg";
 import Mountain from "../assets/art/art.jpg";
-import Blop from "../assets/art/blop.JPG";
-import Circle from "../assets/art/circle.JPG";
-import Fish from "../assets/art/fish.JPG";
+import Blop from "../assets/art/blop.jpg";
+import Circle from "../assets/art/circle.jpg";
+import Fish from "../assets/art/fish.jpg";
 import Hermann from "../assets/art/Hermann.jpeg";
-import Beach from "../assets/art/taf.JPG";
+import Beach from "../assets/art/taf.jpg";
 
 function Art() {
   return (
@@ -64,7 +64,7 @@ function Art() {
             My cat Hermann - Made with acrylix paint in 2021
           </p>
         </div>
-        <div className="img__wrap">
+        <div className="mb-16 img__wrap">
           <img className="border-4 border-silver" src={Beach} alt="beach" />
           <p className="img__description text-center text-xl flex flex-col justify-center items-center font-[600]">
             Beach Kicks jersey - Made with photoshop in 2017
