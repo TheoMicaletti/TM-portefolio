@@ -2,6 +2,8 @@ import React from "react";
 import Content from "../component/Content";
 import Works from "../component/Works";
 
+import CV from "../assets/CV.png";
+
 let firstName = [
   { id: 1, letter: "T" },
   { id: 2, letter: "h" },
@@ -48,7 +50,18 @@ function Home() {
             </div>
           </div>
         </div>
-        <Content />
+        <div className="flex lg:flex-row flex-col items-center">
+          <div className="lg:mr-16">
+            <Content />
+          </div>
+          <div className="lg:ml-16 mt-16 lg:max-w-[300px] max-w-[600px] mx-auto">
+            <img
+              className="border-4 border-silver drop-shadow-[-4px_-4px_0px_rgba(160,160,160)] hover:scale-[1.7]"
+              src={CV}
+              alt="CV"
+            />
+          </div>
+        </div>
         <Works />
       </div>
     </>

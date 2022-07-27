@@ -32,7 +32,7 @@ function Contact() {
   return (
     <>
       <div className="text-center mt-40 text-2xl">
-        <p className="mb-4">Click on the email send a message to me !</p>
+        <p className="mb-4">Click my email and send me a message !</p>
         <a
           className="flex sm:text-4xl justify-center font-[600] text-xl hover:text-yellow"
           href="mailto:theo.micaletti@icloud.com"

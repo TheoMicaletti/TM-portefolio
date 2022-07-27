@@ -28,6 +28,10 @@ module.exports = {
         'waving-hand-infinite': 'wave 0.8s linear infinite',
         'waving-hand-constant': 'wave 0.5s linear infinite',
       },
+      gridTemplateColumns: {
+        // Simple 16 column grid
+        '15': 'repeat(15, minmax(0, 1fr))',
+      }
     },
   },
   plugins: [],
